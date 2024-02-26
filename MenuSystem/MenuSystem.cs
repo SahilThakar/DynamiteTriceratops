@@ -13,4 +13,12 @@ public partial class new_script : Node
 	{
 		
 	}
+	private void _on_button_pressed()
+{
+	GetTree().Quit();
 }
+
+	
+}
+
+
